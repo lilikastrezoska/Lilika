@@ -1,0 +1,106 @@
+
+body {
+
+  background-color: #F8F8F8;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+a:active {
+    text-decoration: none;
+} 
+
+
+.img-responsive {
+
+  display: block;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#about {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  border-radius: 60%;
+  padding: 2%;
+
+  
+}
+
+
+.about {
+
+  display: block;
+  text-align: justify;  
+  text-align-last: center;
+  padding-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+
+  
+ 
+}
+
+
+
+.navbar {
+
+  padding-top: 2%;
+
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+
+.facebook {
+  background: white;
+  color: black;
+}
+
+.instagram {
+  background: white;
+  color: black;
+}
+
+
+
+@media (min-width: 1000px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+
